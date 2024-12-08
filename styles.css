@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background: #4CAF50;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+section {
+    padding: 2rem;
+    margin: auto;
+    max-width: 800px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+section h2 {
+    color: #4CAF50;
+}
+
+.positive, .negative {
+    margin: 1.5rem 0;
+}
+
+.positive ul, .negative ul {
+    list-style: none;
+    padding: 0;
+}
+
+.positive ul li, .negative ul li {
+    margin: 0.5rem 0;
+    padding-left: 1.5rem;
+    position: relative;
+}
+
+.positive ul li::before, .negative ul li::before {
+    content: '✓';
+    position: absolute;
+    left: 0;
+    color: #4CAF50;
+}
+
+.negative ul li::before {
+    content: '✗';
+    color: #e74c3c;
+}
+
+.images, .videos {
+    margin: 2rem 0;
+}
+
+.images img {
+    width: 100%;
+    max-width: 380px;
+    border-radius: 8px;
+    margin: 0.5rem;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background: #333;
+    color: #fff;
+    margin-top: 2rem;
+}
+
+.videos a {
+    display: block;
+    margin: 0.5rem 0;
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+.videos a:hover {
+    text-decoration: underline;
+}
